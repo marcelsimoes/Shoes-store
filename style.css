@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Ropa+Sans&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,8 +37,27 @@ nav {
     font-weight: 600;
     font-size: 24px;
 }
+
 .nav-links li a {
     text-decoration: none;
     color: #777777;
     text-transform: uppercase;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.titulo {
+    font-family: "Open Sans" extra bolt;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 68px;    
+}
+
+.corpoDoSite{
+    display: inline;
+
 }
