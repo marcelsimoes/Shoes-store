@@ -82,3 +82,111 @@ justify-content: space-between;
         align-items: center;
 
     }
+
+    footer {
+        background-color: #C2185B;
+        ;
+        display: flex;
+        margin: auto;
+    
+    }
+    
+    .boxFooter1 {
+        width: 20%;
+        margin-top: 2.5%;
+        margin-left: 8.4%;
+        margin-bottom: 0%;
+        background-color: #C2185B;
+    }
+    
+    .paragrafoFooter1 {
+        width: 100%;
+        color: var(--color1);
+        font-size: 88%;
+        position: relative;
+        bottom: 9%;
+        color: #FFFFFF;
+    
+    }
+    
+    .boxFooter2 {
+        margin-left: 22.2%;
+        margin-top: 5%;
+        color: var(--color1);
+        font-size: 105%;
+        background-color: #C2185B;
+        color: #FFFFFF;
+    }
+    
+    .categorias {
+        font-size: 87%;
+    }
+    
+    .sandalias {
+        cursor: pointer;
+        width: 68%;
+    }
+    
+    .botas {
+        cursor: pointer;
+        width: 41%;
+    }
+    
+    .tenis {
+        cursor: pointer;
+        width: 35.5%;
+    }
+    
+    .oxford {
+        cursor: pointer;
+        width: 47%;
+    }
+    
+    .coturnos {
+        cursor: pointer;
+        width: 65%;
+    }
+    
+    .boxFooter3 {
+        margin-left: 8.5%;
+        margin-top: 5%;
+        color: var(--color1);
+        font-size: 105%;
+        margin-bottom: 4%;
+        width: 16.5%;
+        background-color: #C2185B;
+        color: #FFFFFF;
+    }
+    
+    .sobrenos {
+        cursor: pointer;
+        width: 39%;
+    }
+    
+    .perguntasfrequentes {
+        width: 85%;
+        cursor: pointer;
+    }
+    
+    .politica {
+        width: 88%;
+        cursor: pointer;
+    }
+    
+    .rastreamento {
+        cursor: pointer;
+    }
+    
+    .trabalheconosco {
+        cursor: pointer;
+        width: 68%;
+    }
+    
+    .contato {
+        width: 30%;
+        cursor: pointer;
+    }
+    
+    .institucional {
+        font-size: 87%;
+    }

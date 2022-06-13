@@ -11,11 +11,9 @@
 </head>
 
 <body>
-
     <header class="header">
         <nav>
             <img src="img/logo-color.png" alt="" class="logo">
-
             <ul class="nav-links">
                 <li><a href="index.html">Todos os Produtos</a></li>
                 <li><a href="sobre.html">Coleções</a></li>
@@ -23,99 +21,122 @@
             </ul>
         </nav>
     </header>
-    <section class="primeiroBloco">
 
-        <div class="titulo">
-            <p class="tituloTime">Faça parte do nosso time</p>
-        </div>
+    <div class="frete">
+        <p>MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL!</p>
+    </div>
 
-        <div class="formulario">
-            <form action="email" method="POST">
+    <section class="geral">        
+        <div class="primeiroBloco">
+            <div class="formulario">
 
-                <label for="nome">Nome</label>
-                <br>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
-            </form>
-            <br>
+                <h1>Faça parte do nosso time</h1>
+                <form action="email" method="POST">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="99 99999-9999"
+                        pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
+                    <label for="departamentos">Departamentos</label>
+                    <select name="departamento" id="departamento" placeholder="Departamentos">
+                        <option disabled selected>selecione</option>
+                        <option name="departamento" value="vendas"> Vendas</option>
+                        <option name="departamento" value="sac"> SAC</option>
+                    </select>
 
-            <form action="nome" method="POST">
-                <label for="email">E-mail</label>
-                <br>
-                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
-            </form>
-            <br>
-
-            <form action="telefone" method="POST">
-                <label for="telefone">Telefone</label>
-                <br>
-                <input type="tel" id="phone" name="phone" placeholder="99 99999-9999"
-                    pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
-            </form>
-            <br>
-            <form action="departamentos" method="POST">
-                <label for="departamentos">Departamentos</label>
-                <br>
-                <input type="text" name="departamentos" id="Departamentos">
-            </form>
-        </div>
-
-        <br>
-        <div class="subtitulo">Disponibilidade</div>
-        <div class="horario">
+                    <p>Disponibilidade</p>
 
 
+                    <input type="checkbox" id="integral" name="Disponibilidade" value="integral">
+                    <label for="integral">Integral (8h)</label>
+                    <input type="checkbox" id="meioPeriodo" name="Disponibilidade" value="meioPeriodo">
+                    <label for="meioPeriodo">Meio Periodo (4h)</label>
+                    <input type="checkbox" id="freelancer" name="Disponibilidade" value="freelancer">
+                    <label for="freelancer">Freelancer</label>
+
+                    <p class="contato">Qual é a melhor forma de entrarmos em contato com você?</p>
+
+                    <input type="radio" id="email" name="name" value="email">
+                    <label for="contato">Email</label>
+                    <input type="radio" id="ligação" name="name" value="ligação">
+                    <label for="contato">Ligação</label>
+                    <input type="radio" id="whatsapp" name="name" value="whatsapp">
+                    <label for="contato">Whatsapp</label>
+
+                    <p class="mensagem">Mensagem</p>
+
+                    <textarea name="comentario" id="comentario" placeholder="Conteúdo"></textarea>
 
 
-            <form action="resultado.html" method="POST">
-                <label for="Disponibilidade"></label>
+                    <label for="Curriculo">Curriculo</label>
+                    <input type="button" value="upload" onclick="msg()">
 
-                <input type="checkbox" id="integral" name="Disponibilidade" value="integral">
-                <label for="integral">Integral (8h)</label>
-                
-                <input type="checkbox" id="meioPeriodo" name="Disponibilidade" value="meioPeriodo">
-                <label for="meioPeriodo">Meio Periodo (4h)</label>
-                
-                <input type="checkbox" id="freelancer" name="Disponibilidade" value="freelancer">
-                <label for="freelancer">Freelancer</label>
-                <br>
-            </form>
-        </div>
-        <br>
-        <div class="trabalheConosco">Qual a melhor forma para entramos em contato com você?</div>
-        <br>
-        <div class="comunicacao">
-            <form action="contato" method="POST">
-                <input type="radio" id="email" name="contato" value="email">
-                  <label for="contato">Email</label>
-                <input type="radio" id="ligação" name="contato" value="ligação">
-                  <label for="contato">Ligação</label>
-                <input type="radio" id="whatsapp" name="contato" value="whatsapp">
-                  <label for="contato">Whatsapp</label>
-        </div>
-        <div class="completeAqui">
-            <form action="Contact" method="POST">
-                <br>
-                <label for="comentario">Mensagem:</label>
+                    <p class="botaoFinal">
+                        Enviar</p>
+            </div>
+ </div>
 
+        <div class="segundoBloco">
 
-                <br>
-
-                <textarea name="comentario" id="comentario">Conteúdo</textarea>
-        </div>  
-        </form>
-        <div class="enviar">
-            <p>Curriculo</p>
-            <input type="button" value="Upload" onclick="msg()">
-            <br><br>
-            <button>Enviar</button>
-
-            </form>
-
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex omnis sapiente incidunt itaque
+                ab, minus debitis maxime vitae eaque quisquam ratione unde tempore, eum sunt iste mollitia voluptates
+                asperiores!
+                Esse, eaque quasi doloremque cumque nihil possimus repudiandae ducimus non porro at totam labore nemo
+                debitis quos. Eum pariatur alias tenetur blanditiis, mollitia nobis aut, beatae repellat dolorum, optio
+                distinctio?
+                Quae aspernatur nemo quaerat repellendus nesciunt. Quasi esse harum vel dolores corporis incidunt
+                perspiciatis molestias blanditiis tempore, rerum veritatis sequi modi ipsa, doloremque quae
+                necessitatibus, commodi odit eum rem facere?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex omnis sapiente incidunt itaque
+                ab, minus debitis maxime vitae eaque quisquam ratione unde tempore, eum sunt iste mollitia voluptates
+                asperiores!
+                Esse, eaque quasi doloremque cumque nihil possimus repudiandae ducimus non porro at totam labore nemo
+                debitis quos. Eum pariatur alias tenetur blanditiis, mollitia nobis aut, beatae repellat dolorum, optio
+                distinctio?
+                Quae aspernatur nemo quaerat repellendus nesciunt. Quasi esse harum vel dolores corporis incidunt
+                perspiciatis molestias blanditiis tempore, rerum veritatis sequi modi ipsa, doloremque quae
+                necessitatibus, commodi odit eum rem facere?</p>
 
         </div>
-
 
     </section>
+
+    <footer>
+        <div class="boxFooter1">
+            <img src="img/logo-white.png" alt="logo">
+            <p class="paragrafoFooter1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="boxFooter2">
+            <h3 class="paragrafoFooter2">categorias</h3>
+            <div class="categorias">
+                <p class="sandalias">sandálias</p>
+                <p class="botas">botas</p>
+                <p class="tenis">tênis</p>
+                <p class="oxford">oxford</p>
+                <p class="coturnos">coturnos</p>
+            </div>
+        </div>
+
+        <div class="boxFooter3">
+            <h3 class="paragrafoFooter3">institucional</h3>
+            <div class="institucional">
+                <p class="sobrenos">sobre nós</p>
+                <p class="perguntasfrequentes">perguntas frequentes</p>
+                <p class="politica">política de privacidade</p>
+                <p class="rastreamento">rastreamento de pedidos</p>
+                <p class="trabalheconosco">trabalhe conosco</p>
+                <p class="contato">contato</p>
+            </div>
+        </div>
+        </div>
+
+
+
+
 
 </body>
 

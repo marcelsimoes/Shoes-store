@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&family=Ropa+Sans&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -37,6 +37,7 @@ nav {
     font-weight: 600;
     font-size: 24px;
 }
+
 .nav-links li a {
     text-decoration: none;
     color: #777777;
@@ -44,36 +45,230 @@ nav {
 }
 
 .tituloTime {
-    font-family: "Open Sans SemiBold 600";
+    font-family: "Open Sans semibold 600";
     font-size: 39px;
-    margin-bottom: 36px;
-    
+    padding-bottom: 70px;
+
 }
 
-.primeiroBloco{
-    margin-left: 68px;
-    margin-top: 55px;
+.formulario {
+    width: 80%;
+    margin: 0 auto;
+
 }
 
-.formulario{
+.geral {
     display: flex;
-    flex-direction: column;
-    width: 200px;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.segundoBloco {
+    width:50%;
+    padding-top: 120px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: justify;
+}
+
+.primeiroBloco {
     width: 50%;
-    justify-content: space-between;
 }
 
-.horario{
-    display: flex;
-    flex-direction: row;
 
-}
-.comunicacao{
-    display: flex;
-    flex-direction: row;
+.frete {
+    position: sticky;
+    top: 0;
 }
 
-.enviar{
+.frete p {
     display: flex;
-    flex-direction: row;
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 600;
+    background-color: #C2185B;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.formulario h1 {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 36px;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #575757;
+}
+
+
+.formulario input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario input[type="tel"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario select {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formulario input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+.formulario input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+
+.formulario p {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.formulario textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 22px;
+}
+
+.formulario input[type="button"] {
+    width: 25%;
+    margin-bottom: 22px;
+}
+
+
+.botaoFinal {
+    background-color: #C2185B;
+    height: 33px;
+    width: 536.64px;
+    text-align: center;
+    font-size: "roboto";
+    font-weight: 800;
+    color: white;
+    padding-top: 5px;
+    border: none;
+    margin-bottom: 76px;
+
+}
+
+.botaoFinal:hover {
+    filter: invert();
+    transition: 3s;
+    background-color: #C2185B;
+    border: none;
+}
+
+footer {
+    background-color: #C2185B;
+    display: flex;
+    margin: auto;
+}
+
+.boxFooter1 {
+    width: 20%;
+    margin-top: 2.5%;
+    margin-left: 8.4%;
+    margin-bottom: 0%;
+    background-color: #C2185B;
+}
+
+.paragrafoFooter1 {
+    width: 100%;
+    color: var(--color1);
+    font-size: 88%;
+    position: relative;
+    bottom: 9%;
+    color: #FFFFFF;
+}
+
+.boxFooter2 {
+    margin-left: 22.2%;
+    margin-top: 5%;
+    color: var(--color1);
+    font-size: 105%;
+    background-color: #C2185B;
+    color: #FFFFFF;
+}
+
+.categorias {
+    font-size: 87%;
+}
+
+.sandalias {
+    cursor: pointer;
+    width: 68%;
+}
+
+.botas {
+    cursor: pointer;
+    width: 41%;
+}
+
+.tenis {
+    cursor: pointer;
+    width: 35.5%;
+}
+
+.oxford {
+    cursor: pointer;
+    width: 47%;
+}
+
+.coturnos {
+    cursor: pointer;
+    width: 65%;
+}
+
+.boxFooter3 {
+    margin-left: 8.5%;
+    margin-top: 5%;
+    color: var(--color1);
+    font-size: 105%;
+    margin-bottom: 4%;
+    width: 16.5%;
+    background-color: #C2185B;
+    color: #FFFFFF;
+}
+
+.sobrenos {
+    cursor: pointer;
+    width: 39%;
+}
+
+.perguntasfrequentes {
+    width: 85%;
+    cursor: pointer;
+}
+
+.politica {
+    width: 88%;
+    cursor: pointer;
+}
+
+.rastreamento {
+    cursor: pointer;
+}
+
+.trabalheconosco {
+    cursor: pointer;
+    width: 68%;
+}
+
+.contato {
+    width: 30%;
+    cursor: pointer;
+}
+
+.institucional {
+    font-size: 87%;
 }
